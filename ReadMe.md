@@ -19,9 +19,11 @@
 
 - Data obtained from *[The Health Inequality Project](https://healthinequality.org/data/)*
 	> The Health Inequality Project uses big data to measure differences in life expectancy by income across areas and identify strategies to improve health outcomes for low-income Americans. **[The Association Between Income and Life Expectancy in the United States, 2001-2014](https://jamanetwork.com/journals/jama/fullarticle/2513561?guestAccessKey=4023ce75-d0fb-44de-bb6c-8a10a30a6173)**
+
 - Income quartiles for 2015 were obtained from *[Don't Quit Your Day Job](https://dqydj.com/average-income-by-state-median-percentiles/)*. Data provided by IPUMS-CPS, University of Minnesota, [www.ipums.org](www.ipums.org).
 	> DQYDJ has provided original finance and investment research and tools since 2009. With hundreds of interactive tools, thousands of articles, tens of thousands of subscribers, and millions of page views, DQYDJ is a trusted source for statistics, economics, and financial strategies.
-	> IPUMS CPS is an integrated set of data from the Current Population Survey (CPS) from 1962 forward. IPUMS CPS is microdata--it provides information about individual persons and households. The IPUMS CPS project was carried out by the Minnesota Population Center in collaboration with Unicon Research Corporation.
+
+	> IPUMS CPS is an integrated set of data from the Current Population Survey (CPS) from 1962 forward. IPUMS CPS is microdata- it provides information about individual persons and households. The IPUMS CPS project was carried out by the Minnesota Population Center in collaboration with Unicon Research Corporation.
 
 ---
 
