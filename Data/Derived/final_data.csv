@@ -1,4 +1,4 @@
-state,year,quartile,gender,life_expectancy
+state,year,quartile,gender,LE
 al,2001,1,female,80.977432
 al,2002,1,female,81.550888
 al,2003,1,female,80.669098

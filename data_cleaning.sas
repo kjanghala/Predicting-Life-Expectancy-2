@@ -1,5 +1,5 @@
 /*read csv file*/
-proc import datafile= '/Resources/Raw/health_ineq_online_table_5.csv'
+proc import datafile= '/Data/Raw/health_ineq_online_table_5.csv'
 	dbms=csv
 	out = raw_data
 	replace;
@@ -33,35 +33,35 @@ run;
 data q1_data; set cleaned_data;
 	quartile = 1;
 	keep state year gender q1_le quartile;
-	rename q1_le=life_expectancy;
+	rename q1_le=LE;
 run;
 
 data q2_data; set cleaned_data;
 	quartile = 2;
 	keep state year gender q2_le quartile;
-	rename q2_le=life_expectancy;
+	rename q2_le=LE;
 run;
 
 data q3_data; set cleaned_data;
 	quartile = 3;
 	keep state year gender q3_le quartile;
-	rename q3_le=life_expectancy;
+	rename q3_le=LE;
 run;
 
 data q4_data; set cleaned_data;
 	quartile = 4;
 	keep state year gender q4_le quartile;
-	rename q4_le=life_expectancy;
+	rename q4_le=LE;
 run;
 
 data final_data; 
-	retain state year quartile gender life_expectancy;
+	retain state year quartile gender LE;
 	set q1_data q2_data q3_data q4_data;
 run;
 
 /*export cleaned csv file*/
 proc export data = final_data
-	outfile='/Resources/Derived/final_data.csv'
+	outfile='/Data/Derived/final_data.csv'
 	dbms=csv
 	replace;
 run;
@@ -85,14 +85,19 @@ data test_data; set final_data;
 	drop year;
 run;
 
+data test_data; 
+	retain state new_year quartile gender LE;
+	set test_data;
+run;
+
 proc export data = test_data
-	outfile='/Resources/Derived/test_data.csv'
+	outfile='/Data/Derived/test_data.csv'
 	dbms=csv
 	replace;
 run;
 
 /*2018 income quartiles by state*/
-proc import datafile= '/Resources/Raw/state_by_percentile_2018.csv'
+proc import datafile= '/Data/Raw/state_by_percentile_2018.csv'
 	dbms=csv
 	out = reference
 	replace;
@@ -106,7 +111,7 @@ data ref_2018;
 run;
 
 proc export data = ref_2018
-	outfile='/Resources/Derived/ref_2018.csv'
+	outfile='/Data/Derived/ref_2018.csv'
 	dbms=csv
 	replace;
 run;
