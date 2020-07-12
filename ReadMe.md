@@ -1,17 +1,22 @@
-# Predicting Life Expectancy in the US
-## *Using gender, state, and personal income quartile to predict longevity*
+# Life Expectancy in the US
+## *Exploring the effect gender, state, and income distribution on longevity in the United States*
+
+### Questions/Aims
+
+1. How does life expectancy differ across gender, state, and income quartile? What trends can be observed over time?
+2. Can a model that takes account of these factors be built to accurately predict longevity in the future?
 
 ---
 
 ### Tools and tech used in this project:
 
 - SAS to clean the data
-- Python (sklearn, joblib) to generate the model
-- Python (flask) to host the webpage
 - Tableau to create the visualizations
+- Python (sklearn, joblib) to generate a ML model
+- Python (flask) to host the webpage
 - HTML/CSS/JavaScript to structure and enhance the webpage
 
-![SAS](/Images/sas.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Python](/Images/python.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Tableau](/Images/tableau.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![HTML, CSS, JS](/Images/html_css_js.png)
+![SAS](/Images/sas.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Tableau](/Images/tableau.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Python](/Images/python.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![HTML, CSS, JS](/Images/html_css_js.png)
 
 ---
 
