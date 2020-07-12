@@ -11,7 +11,7 @@
 - Tableau to create the visualizations
 - HTML/JavaScript/CSS to structure and enhance the webpage
 
-![SAS](/Images/sas.png) ![Python](/Images/python.png) ![Tableau](/Images/tableau.png) ![HTML, CSS, JS](/Images/html_css_js.png)
+![SAS](/Images/sas.png)   ![Python](/Images/python.png)   ![Tableau](/Images/tableau.png)   ![HTML, CSS, JS](/Images/html_css_js.png)
 
 ---
 
