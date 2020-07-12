@@ -1,5 +1,4 @@
 # Predicting Life Expectancy in the US
-
 ## *Using gender, state, and personal income quartile to predict longevity*
 
 ---
@@ -19,9 +18,9 @@
 ### Data Sources:
 
 - Data obtained from *[The Health Inequality Project]*(https://healthinequality.org/data/)
-> The Health Inequality Project uses big data to measure differences in life expectancy by income across areas and identify strategies to improve health outcomes for low-income Americans. **[The Association Between Income and Life Expectancy in the United States, 2001-2014]**(https://jamanetwork.com/journals/jama/fullarticle/2513561?guestAccessKey=4023ce75-d0fb-44de-bb6c-8a10a30a6173)
+	> The Health Inequality Project uses big data to measure differences in life expectancy by income across areas and identify strategies to improve health outcomes for low-income Americans. **[The Association Between Income and Life Expectancy in the United States, 2001-2014]**(https://jamanetwork.com/journals/jama/fullarticle/2513561?guestAccessKey=4023ce75-d0fb-44de-bb6c-8a10a30a6173)
 - Income quartiles for 2015 were obtained from *[Don't Quit Your Day Job]*(https://dqydj.com/average-income-by-state-median-percentiles/). Income quartiles for 2019 can be referenced [here](https://dqydj.com/income-percentile-by-state-calculator/). Data provided by IPUMS-CPS, University of Minnesota, [www.ipums.org](www.ipums.org).
-> DQYDJ has provided original finance and investment research and tools since 2009. With hundreds of interactive tools, thousands of articles, tens of thousands of subscribers, and millions of page views, DQYDJ is a trusted source for statistics, economics, and financial strategies.
+	> DQYDJ has provided original finance and investment research and tools since 2009. With hundreds of interactive tools, thousands of articles, tens of thousands of subscribers, and millions of page views, DQYDJ is a trusted source for statistics, economics, and financial strategies.
 
 ---
 
