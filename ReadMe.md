@@ -9,7 +9,7 @@
 - Python (sklearn, joblib) to generate the model
 - Python (flask) to host the webpage
 - Tableau to create the visualizations
-- HTML/JavaScript/CSS to structure and enhance the webpage
+- HTML/CSS/JavaScript to structure and enhance the webpage
 
 ![SAS](/Images/sas.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Python](/Images/python.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Tableau](/Images/tableau.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![HTML, CSS, JS](/Images/html_css_js.png)
 
@@ -29,7 +29,8 @@
 
 ### Notes:
 
-- Model was trained on data obtained for the years 2001 to 2014. 
-- Individual income quartiles provided on webpage reflect 2015 - be sure to use [this link](https://dqydj.com/income-percentile-by-state-calculator/), provided on the webpage, to use the most recent income quartile calculations (2019). 
+- Model was trained on data obtained for the years 2001 to 2014.
+- life expectancy prediction is based on individuals at age 40, and is not adjusted by race.
+- Individual income quartiles provided on webpage reflect 2015 - for the most recent income quartile calculations (2019), be sure to use [this link](https://dqydj.com/income-percentile-by-state-calculator/), also provided on the webpage.
 - This project was originally created in October 2019, as a part of a data analytics and visualizations bootcamp. It was last updated in July 2020.
-- Please note that this is a personal project that is not peer-reviewed and should not be used to make any assumptions or claims. 
+- Please note that this is a personal project that is not peer-reviewed and should not be used to make any assumptions or claims.
