@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Visualizations</title>
+  <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the header */
+    .header {
+      background-color: #f1f1f1;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+    }
+    
+    /* Container for flexboxes */
+    .row {
+      display: -webkit-flex;
+      display: flex;
+    }
+    
+    /* Create three unequal columns that sits next to each other */
+    .column {
+      padding: 10px;
+    }
+    
+    /* Left and right column */
+    .column.side {
+       -webkit-flex: 1;
+       -ms-flex: 1;
+       flex: 1;
+    }
+    /* Middle column */
+    .column.middle {
+      -webkit-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+      <h1>Visualizations</h1>
+        <h2>
+          <nav class="navbar navbar-inverse">
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <button type="button" onclick="window.location.href = '/';" class="btn btn-info">HOME</button>
+                <button type="button" onclick="window.location.href = '/model';" class="btn btn-info">Model</button>
+                <button type="button" onclick="window.location.href = '/viz';" class="btn btn-info">Visualizations</button>
+              </ul>      
+            </div>
+          </nav>
+        </h2>
+    </div>
+<center>
+<div class="column middle">
+<h2>Average Life Expectancy for Females, 2000-2014</h2>
+<img src="static/images/le_gender_female.png" alt="average life expectancy for females, 2000-2014" width="1455" height="837"><br><br>
+<h2>Average Life Expectancy for Males, 2000-2014</h2>
+<img src="static/images/le_gender_male.png" alt="average life expectancy for males, 2000-2014" width="1455" height="837"><br><br>
+</div>
+</center>
+</body>
+</html>

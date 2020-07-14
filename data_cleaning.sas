@@ -1,5 +1,5 @@
 /*read csv file*/
-proc import datafile= '/Data/Raw/health_ineq_online_table_5.csv'
+proc import datafile= '/data/raw/health_ineq_online_table_5.csv'
 	dbms=csv
 	out = raw_data
 	replace;
@@ -61,13 +61,13 @@ run;
 
 /*export cleaned csv file*/
 proc export data = final_data
-	outfile='/Data/Derived/final_data.csv'
+	outfile='/data/derived/final_data.csv'
 	dbms=csv
 	replace;
 run;
 
 /*2018 income quartiles by state*/
-proc import datafile= '/Data/Raw/state_by_percentile_2018.csv'
+proc import datafile= '/data/raw/state_by_percentile_2018.csv'
 	dbms=csv
 	out = reference
 	replace;
@@ -82,7 +82,7 @@ run;
 
 /*export cleaned csv file*/
 proc export data = ref_2018
-	outfile='/Data/Derived/ref_2018.csv'
+	outfile='/data/derived/ref_2018.csv'
 	dbms=csv
 	replace;
 run;

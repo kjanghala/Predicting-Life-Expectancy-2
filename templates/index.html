@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Life Expectancy</title>
+  <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the header */
+    .header {
+      background-color: #f1f1f1;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+    }
+    
+    /* Container for flexboxes */
+    .row {
+      display: -webkit-flex;
+      display: flex;
+    }
+    
+    /* Create three unequal columns that sits next to each other */
+    .column {
+      padding: 10px;
+    }
+    
+    /* Left and right column */
+    .column.side {
+       -webkit-flex: 1;
+       -ms-flex: 1;
+       flex: 1;
+    }
+    /* Middle column */
+    .column.middle {
+      -webkit-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+      <h1>Life Expectancy, Income, and Location</h1>
+        <h2>
+          <nav class="navbar navbar-inverse">
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <button type="button" onclick="window.location.href = '/';" class="btn btn-info">HOME</button>
+                <button type="button" onclick="window.location.href = '/model';" class="btn btn-info">Model</button>
+                <button type="button" onclick="window.location.href = '/viz';" class="btn btn-info">Visualizations</button>
+              </ul>      
+            </div>
+          </nav>
+        </h2>
+        <h3>How income and location affects longevity</h3>
+    </div>
+    <center>
+      <div class="column middle">
+        <a href="https://jamanetwork.com/journals/jama/article-abstract/2513561">The Association Between Income and Life Expectancy in the United States, 2001-2014</a><br>
+        <a href="https://www.npr.org/sections/thetwo-way/2016/04/11/473749157/its-not-just-what-you-make-its-where-you-live-says-study-on-life-expectancy">Life Expectancy Study: It's Not Just What You Make, It's Where You Live</a><br><br>
+        <img src="static/images/info.png" alt="infographic" width="453" height="951"><br>
+      </div>
+</center>
+</body>
+</html>
