@@ -66,36 +66,6 @@ proc export data = final_data
 	replace;
 run;
 
-/*testing alternative model*/
-data test_data; set final_data;
-	if year = 2001 then new_year = 1;
-	if year = 2002 then new_year = 2;
-	if year = 2003 then new_year = 3;
-	if year = 2004 then new_year = 4;
-	if year = 2005 then new_year = 5;
-	if year = 2006 then new_year = 6;
-	if year = 2007 then new_year = 7;
-	if year = 2008 then new_year = 8;
-	if year = 2009 then new_year = 9;
-	if year = 2010 then new_year = 10;
-	if year = 2011 then new_year = 11;
-	if year = 2012 then new_year = 12;
-	if year = 2013 then new_year = 13;
-	if year = 2014 then new_year = 14;
-	drop year;
-run;
-
-data test_data; 
-	retain state new_year quartile gender LE;
-	set test_data;
-run;
-
-proc export data = test_data
-	outfile='/Data/Derived/test_data.csv'
-	dbms=csv
-	replace;
-run;
-
 /*2018 income quartiles by state*/
 proc import datafile= '/Data/Raw/state_by_percentile_2018.csv'
 	dbms=csv
@@ -110,6 +80,7 @@ data ref_2018;
 	drop average _90th_Percentile Top_1_;
 run;
 
+/*export cleaned csv file*/
 proc export data = ref_2018
 	outfile='/Data/Derived/ref_2018.csv'
 	dbms=csv

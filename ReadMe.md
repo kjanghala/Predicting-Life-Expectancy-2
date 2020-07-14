@@ -36,6 +36,6 @@
 
 - Model was trained on data obtained for the years 2001 to 2014.
 - life expectancy prediction is based on individuals at age 40, and is not adjusted by race.
-- Individual income quartiles provided on webpage reflect 2018 - for the most recent income quartile calculations (2019), be sure to use [this link](https://dqydj.com/income-percentile-by-state-calculator/), also provided on the webpage.
+- Individual income quartiles assigned based on input in the webpage reflect 2018
 - This project was originally created in October 2019, as a part of a data analytics and visualizations bootcamp. It was last updated in July 2020.
 - Please note that this is a personal project that is not peer-reviewed and should not be used to make any assumptions or claims.
